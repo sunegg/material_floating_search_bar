@@ -323,7 +323,7 @@ class FloatingSearchAppBarState extends ImplicitlyAnimatedWidgetState<
     super.initState();
     if (isAlwaysOpened) {
       _isOpen = true;
-      postFrame(_input.requestFocus);
+      //postFrame(_input.requestFocus);
     }
 
     _assignController();
