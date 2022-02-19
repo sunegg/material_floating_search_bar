@@ -356,8 +356,8 @@ class FloatingSearchAppBarState extends ImplicitlyAnimatedWidgetState<
   void close() => isOpen = false;
 
   void focus() {
-    _wasUnfocusedOnScroll = false;
-    _input.requestFocus();
+    //_wasUnfocusedOnScroll = false;
+    //_input.requestFocus();
   }
 
   void unfocus() {
